@@ -33,9 +33,7 @@
 					<p:inputText id="price" value="#{setupBean.setup.price}" converterMessage="Preço deve ser um numero">
 						<f:validateDoubleRange minimum="0" />
 						<f:ajax event="blur" render="messages" />
-					</p:inputText>
-					
-					
+					</p:inputText>					
 				</h:panelGrid>
 			
 			
@@ -61,10 +59,8 @@
 		        </p:dataTable>
 		    </div>
 		</h:form>
-		
-		
+	
 	</ui:define>
-		
 </ui:composition>
 
 </html>
